@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&wv4jm^j-6g%0l0^#@w&j7%z3bchrcrzl&8&s-=8s^k1igrti$'
+SECRET_KEY = 'u23lydl-udf8m*(&p7(y176uul&jxr$m2)1pttf)@=t$p*sbw('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [' /Users/mohan/Documents/GitHub/PythonProjects/DjangoFirstProj/mysite/templates/'],
+        'DIRS': ['/Users/mohan/Documents/GitHub/PythonProjects/FirstDjangoProj/mysite/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
