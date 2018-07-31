@@ -7,6 +7,7 @@ from django.http import HttpResponse
 
 def index(request):
     #return HttpResponse("Welcome to Landing Page")
+    #return render(request, 'landingPage/landingPage.html', {})
     return render(request, 'landingPage/index.html', {})
 
 # Create your views here.
