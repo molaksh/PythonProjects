@@ -44,11 +44,9 @@ for item in data1['Time Series (Digital Currency Intraday)']:
 dbOut = db.temp.find()
 
 df = pd.DataFrame(list(dbOut))
-sdf = df.sort_values(by=['_id'])
-print sdf
 
-
-sdf['_id'] = sdf['_id'].astype('datetime64')
-sdf['price'] = sdf['price'].astype('float64')
-sdf.plot(x='_id', y='price')
+df = df.sort_values(by=['_id'])
+df['_id'] = df['_id'].astype('datetime64[ns]')
+df['price'] = df['price'].astype('float64')
+df.plot(x='_id', y='price')
 plt.show()
