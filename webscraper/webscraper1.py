@@ -1,3 +1,4 @@
+#python 3.6
 import bs4
 from urllib2 import urlopen as uReq
 from bs4 import BeautifulSoup as soup
