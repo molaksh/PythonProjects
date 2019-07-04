@@ -1,2 +1,3 @@
-/.gitattributes
+.gitattributes
+.DS_Store
 /.vscode/
